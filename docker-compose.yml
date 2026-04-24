@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: realestate-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: realestate
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

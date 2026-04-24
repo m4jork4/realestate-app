@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RealEstate.Api",
+    "\\RealEstate.Api\\Admin",
+    "\\RealEstate.Api\\Images",
+    "\\RealEstate.Api\\Inquiries",
+    "\\RealEstate.Api\\Listings",
+    "\\RealEstate.Api\\Profile",
+    "\\RealEstate.Api\\Properties",
+    "\\RealEstate.Api\\wwwroot\\uploads",
+    "\\RealEstate.Api\\wwwroot\\uploads\\listings"
+  ],
+  "SelectedNode": "\\RealEstate.Api\\Admin\\AdminController.cs",
+  "PreviewInSolutionExplorer": false
+}
